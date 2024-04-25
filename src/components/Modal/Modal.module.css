@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 4px;
-    background-color: aliceblue;
+    background-color: var(--secondary-color);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -32,11 +32,11 @@
 }
 
 .btn svg{
-    color: #218733;
+    color: var(--primary-color);
     transition: 300ms linear;
 }
 
 .btn:hover svg{
-    background-color:  #218733;
-    color: aliceblue;
+    background-color:  var(--primary-color);
+    color: var(--secondary-color);
 }

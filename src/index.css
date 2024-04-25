@@ -1,12 +1,17 @@
 @import-normalize;
 
+:root{
+  --primary-color: #218733;
+  --secondary-color:  aliceblue;
+}
+
 body {
   font-family: "Schoolbell", cursive;
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
   background-color: #92c84a;
-  color: #218733;
+  color: var(--primary-color);
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
@@ -40,3 +45,4 @@ a {
   padding: 20px 10px;
   margin: 0 auto;
 }
+

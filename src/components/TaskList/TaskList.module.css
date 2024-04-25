@@ -9,7 +9,7 @@
   
   .listItem {
     padding: 5px;
-    border: 1px solid #218733;
+    border: 1px solid var(--primary-color);
     border-radius: 4px;
   }
   
