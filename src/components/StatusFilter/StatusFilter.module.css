@@ -1,0 +1,9 @@
+.wrapper {
+    display: flex;
+    gap: 4px;
+
+    @media screen and (max-width: 380px) {
+      flex-direction: column;
+    }
+  }
+  

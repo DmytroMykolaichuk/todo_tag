@@ -1,0 +1,48 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    @media screen  and (max-width: 380px){
+      flex-direction: column;
+    }
+  }
+  
+  .field {
+    padding: 8px;
+    font: inherit;
+    height: 20px;
+    max-width: 191px;
+    color: inherit;
+  }
+
+  .select{
+    display: flex;
+    padding: 8px;
+    width: 210px;
+    color: inherit;
+    font: inherit;
+    height: 39px;
+  }
+  
+  .field:focus {
+    outline-color: #1976d2;
+  }
+  .container_form_btn{
+    display: flex;
+    justify-content: space-between
+  }
+  
+  .btn_reset{
+    padding: 8px;
+    border: none;
+    background-color: #218733;
+    color: aliceblue;
+    border-radius: 4px;
+  }

@@ -1,0 +1,12 @@
+.text {
+    margin: 0;
+  }
+
+  .wrap{
+    display: flex;
+    gap: 20px;
+    @media screen and (max-width: 460px) {
+      display: block;
+    }
+  }
+  
